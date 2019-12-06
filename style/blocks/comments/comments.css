@@ -1,0 +1,48 @@
+@import url("comments__container.css");
+@import url("comments__item.css");
+@import url("comments__pic.css");
+@import url("comments__text.css");
+@import url("comments__subtitle.css");
+@import url("comments__title.css");
+@import url("comments__text-block.css");
+
+.comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 6.7em 0 0 0;
+  font-family: "Inter", Arial, Helvetica;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .comments {
+    width: calc(100% - 2 * 48px);
+    margin: 7.1em 0 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .comments {
+    width: calc(100% - 2 * 24px);
+    margin: 6.5em 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .comments {
+    width: calc(100% - 2 * 16px);
+    margin: 0;
+  }
+}

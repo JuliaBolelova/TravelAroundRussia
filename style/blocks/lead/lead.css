@@ -1,0 +1,35 @@
+@import url("lead__image.css");
+@import url("lead__map.css");
+@import url("lead__signature.css");
+@import url("lead__subtitle.css");
+@import url("lead__title.css");
+
+.lead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 984px;
+  width: 100%;
+  margin: 0 0 80px 0; /* переделать на ем*/
+  font-family: "Inter", Arial, Helvetica;
+}
+@media (max-width: 1023px) {
+  .lead {
+    margin: 0 0 4.8em 0;
+  }
+}
+@media (max-width: 767px) {
+  .lead {
+    margin: 0 0 4.1em 0;
+  }
+}

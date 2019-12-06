@@ -1,0 +1,32 @@
+.place__title {
+  text-align: left;
+  margin: 0;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place__title {
+    width: 100%;
+    font-size: 72px;
+    line-height: 65px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+@media (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: calc(100% - 2 * 16px);
+    margin: 0 0 35px 0;
+  }
+}

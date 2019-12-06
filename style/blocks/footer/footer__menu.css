@@ -1,0 +1,15 @@
+.footer__menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .footer__menu {
+    display: block;
+    min-height: 100%;
+  }
+}

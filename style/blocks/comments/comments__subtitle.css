@@ -1,0 +1,10 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .comments__subtitle {
+    margin: 0 0 2.6em 0 ;
+  }
+}
+@media (max-width: 767px) {
+  .comments__subtitle {
+    margin: 0 0 37px 0 ;
+  }
+}

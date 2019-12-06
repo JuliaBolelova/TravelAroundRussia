@@ -1,0 +1,33 @@
+.lead__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin: 38px 0px 70px 0px; /*переделать на em*/
+  max-width: 583px;
+  width: 100%;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lead__subtitle {
+    width: calc(100% - 2 * 48px);
+    margin: 1.2em 0 2.33em 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__subtitle {
+    max-width: calc(100% - 2 * 24px);
+    margin: 1.2em 0 2.33em 0;
+    
+  }
+}
+@media (max-width: 767px) {
+  .lead__subtitle {
+    width: calc(100% - 2 * 16px);
+    max-width: 282px;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0.8em 0 2.18em 0;
+  }
+}

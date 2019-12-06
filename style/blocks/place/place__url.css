@@ -1,0 +1,21 @@
+.place__url {
+  max-width: 484px;
+  min-height: 46px;
+  margin: 0;
+  position: relative;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place__url {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__url {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .place__url {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+.footer__menu-link {
+  width: 100%;
+  margin: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__menu-link {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}

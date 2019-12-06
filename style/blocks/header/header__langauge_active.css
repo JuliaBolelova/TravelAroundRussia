@@ -1,0 +1,9 @@
+.header__langauge_active {
+  right: 48px;
+  border-bottom: 2px #ffffff solid;
+}
+@media (max-width: 767px) {
+  .header__langauge_active {
+    right: 40px;
+  }
+}

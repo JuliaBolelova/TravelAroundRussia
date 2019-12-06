@@ -1,0 +1,12 @@
+.place__url-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,36 @@
+@import url("header__logo.css");
+@import url("header__langauge.css");
+@import url("header__langauge_active.css");
+
+.header {
+  width: 100%;
+  max-width: 1184px;
+  height: 52px;
+  margin: 30px 0px 60px 0px;
+  position: relative;
+  font-family: "Inter", Arial, Helvetica;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    width: calc(100% - 2 * 48px);
+    margin: 30px 0px 60px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    width: calc(100% - 2 * 24px);
+    margin: 0.6em 0 2.5em 0;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    height: 42px;
+    margin: 0.75em 0 2.8em 0;
+    width: calc(100% - 2 * 16px);
+    font-size: 18px;
+    line-height: 17px;
+  }
+}

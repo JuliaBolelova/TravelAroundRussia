@@ -1,0 +1,27 @@
+.video__title-main {
+  font-size: 72px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #ffffff;
+  
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .video__title-main {
+    font-size: 42px;
+line-height: 46px;
+margin: 0;
+max-width: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .video__title-main {
+    width: 100%;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 27px 0;
+    max-width: 500px;
+  }
+}

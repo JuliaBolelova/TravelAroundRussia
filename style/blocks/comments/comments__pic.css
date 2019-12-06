@@ -1,0 +1,22 @@
+.comments__pic {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  margin: 0 0 35px 0;
+  padding: 0;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .comments__pic {
+    margin: 0 0 35px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .comments__pic {
+    margin: 0 0 0.9em 0;
+  }
+}
+@media (max-width: 767px) {
+  .comments__pic {
+    margin: 0 0 13px 0;
+  }
+}

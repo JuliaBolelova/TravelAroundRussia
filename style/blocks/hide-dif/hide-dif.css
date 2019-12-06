@@ -1,0 +1,10 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hide-dif {
+display: block;
+  }
+}
+@media (max-width: 767px) {
+  .hide-dif {
+display: none;
+  }
+}

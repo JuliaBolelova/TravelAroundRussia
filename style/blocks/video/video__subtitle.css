@@ -1,0 +1,28 @@
+.video__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  position: absolute;
+  left: 30px;
+  bottom: 28px;
+  margin: 0;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .video__subtitle {
+    position: initial;
+    margin: 9px 0 26px 24px;
+  }
+}
+@media (max-width: 767px) {
+  .video__subtitle {
+    position: initial;
+    margin: 9px 25px 26px 24px;
+  }
+}
+@media (min-width: 320px) {
+  .video__subtitle {
+    margin: 7px 0 18px 16px;
+  }
+}
